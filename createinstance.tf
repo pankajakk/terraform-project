@@ -1,0 +1,9 @@
+resource "aws_instance" "MyFirstInstnace" {
+count = 3  
+ami           = "ami-0b6c6ebed2801a5cb"
+  instance_type = "t2.micro"
+
+tags = {
+Name = "demoinstance-${count.index}"
+}
+}
