@@ -7,3 +7,6 @@ tags = {
 Name = "demoinstance-${count.index}"
 }
 }
+
+nh`:wq!
+
